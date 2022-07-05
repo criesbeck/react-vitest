@@ -66,9 +66,13 @@ Open http://localhost:3000 in a browser.
 
 ## Credits
 
-React-Vitest ibuilt and maintained by [Chris Riesbeck](https://github.com/criesbeck).
+React-Vitest built and maintained by [Chris Riesbeck](https://github.com/criesbeck).
 
 Inspired by [SafdarJamal/vite-template-react](https://github.com/SafdarJamal/vite-template-react).
+Expanded to include Vitest and some sample tests.
+
+Gitignore file created with [the Toptal tool](https://www.toptal.com/developers/gitignore/api/react,firebase,visualstudiocode,macos,windows).
+
 
 ## License
 
