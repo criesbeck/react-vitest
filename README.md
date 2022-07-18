@@ -1,6 +1,50 @@
 # React Vitest Template
 
-A starter template for building React + Vitest apps with Vite.
+A starter template for building React apps with Vite.
+
+## Usage
+
+```
+mkdir your-app-name
+cd your-app-name
+npx degit criesbeck/react-vitest
+npm install
+```
+
+## Test
+
+Verify that the initial app works. Run
+
+```
+npm start
+```
+
+and open the URL displayed.
+
+Verify that the unit tests work with
+
+```
+npm test
+```
+
+Two tests should run and pass. 
+
+## Scripts
+
+**package.json** defines the following scripts:
+
+| Script         | Description                                         |
+| -------------- | --------------------------------------------------- |
+| npm start      | Runs the app in the development mode.               |
+| npm run dev    | Runs the app in the development mode.               |
+| npm run build  | Builds the app for production to the `dist` folder. |
+| npm run serve  | Serves the production build from the `dist` folder. |
+| npm test       | Starts a Jest-like test loop                        |
+
+
+## Git
+
+If everything is working, set up [your local and remote repositories](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git).
 
 ## Folder Structure
 
@@ -23,57 +67,14 @@ your-app-name
 ├── vite.config.js
 ```
 
-## Usage
-
-To create a React app, use [degit](https://github.com/tiged/tiged)
-
-```
-mkdir your-app-name
-cd your-app-name
-npx degit criesbeck/react-vitest
-npm install
-```
-
-## Test
-
-Test that the initial app works by executing
-
-```
-npm start
-```
-
-and opening http://localhost:3000 in a browser.
-
-Test that the unit tests are working by executing
-
-```
-npm test
-```
-
-Two tests should run and pass. 
-
-## Git
-
-If everything is working, set up [your local and remote repositories](https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git).
-
-## Scripts
-
-**package.json** defines the following scripts:
-
-| Script         | Description                                         |
-| -------------- | --------------------------------------------------- |
-| npm start      | Runs the app in the development mode.               |
-| npm run dev    | Runs the app in the development mode.               |
-| npm run build  | Builds the app for production to the `dist` folder. |
-| npm run serve  | Serves the production build from the `dist` folder. |
-| npm test       | Starts a Jest-like test loop                        |
-
 ## Credits
 
 React-Vitest built and maintained by [Chris Riesbeck](https://github.com/criesbeck).
 
 Inspired by [SafdarJamal/vite-template-react](https://github.com/SafdarJamal/vite-template-react).
 Expanded to include Vitest and some sample tests.
+
+[degit](https://www.npmjs.com/package/degit)
 
 Gitignore file created with [the Toptal tool](https://www.toptal.com/developers/gitignore/api/react,firebase,visualstudiocode,macos,windows).
 
