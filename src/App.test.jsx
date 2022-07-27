@@ -9,7 +9,7 @@ describe('counter tests', () => {
     expect(screen.getByText('count is: 0')).toBeDefined();
   });
 
-  test("Counter should be increment by one when clicked", async () => {
+  test("Counter should increment by one when clicked", async () => {
     render(<App />);
     const counter = screen.getByRole('button');
     fireEvent.click(counter);

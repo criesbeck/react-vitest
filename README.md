@@ -1,6 +1,7 @@
 # React Vitest Template
 
-A starter template for building React apps with Vite.
+A starter template for building React apps with Vite. Includes Vitest for unit testing and
+a hefty .gitignore file.
 
 ## Usage
 
@@ -74,7 +75,7 @@ React-Vitest built and maintained by [Chris Riesbeck](https://github.com/criesbe
 Inspired by [SafdarJamal/vite-template-react](https://github.com/SafdarJamal/vite-template-react).
 Expanded to include Vitest and some sample tests.
 
-[degit](https://www.npmjs.com/package/degit)
+Thanks to Rich Harris for [degit](https://www.npmjs.com/package/degit).
 
 Gitignore file created with [the Toptal tool](https://www.toptal.com/developers/gitignore/api/react,firebase,visualstudiocode,macos,windows).
 
