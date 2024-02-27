@@ -34,13 +34,14 @@ Two tests should run and pass.
 
 **package.json** defines the following scripts:
 
-| Script         | Description                                         |
-| -------------- | --------------------------------------------------- |
-| npm start      | Runs the app in the development mode.               |
-| npm run dev    | Runs the app in the development mode.               |
-| npm run build  | Builds the app for production to the `dist` folder. |
-| npm run serve  | Serves the production build from the `dist` folder. |
-| npm test       | Starts a Jest-like test loop                        |
+| Script           | Description                                         |
+| -----------------| --------------------------------------------------- |
+| npm start        | Runs the app in the development mode.               |
+| npm run dev      | Runs the app in the development mode.               |
+| npm run build    | Builds the app for production to the `dist` folder. |
+| npm run serve    | Serves the production build from the `dist` folder. |
+| npm test         | Starts a Jest-like test loop                        |
+| npm run coverage | Runs the tests, displays code coverage results      |
 
 
 ## Git
