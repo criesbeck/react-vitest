@@ -11,6 +11,8 @@ cd your-app-name
 npx degit criesbeck/react-vitest
 npm install
 ```
+If the third step hangs after printing ``> cloned criesbeck/react-vitest#HEAD``, 
+just control-C to exit then run ``npm install``.
 
 ## Test
 
